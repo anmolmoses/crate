@@ -2,6 +2,16 @@
 
 A music player for Android that puts your albums in a 3D rack of CD jewel cases. Scrub through the rack and each album starts its preview instantly.
 
+<p align="center">
+  <a href="docs/media/demo-phone.mp4"><img src="docs/media/demo.gif" width="300" alt="Crate demo: scrubbing the rack, then Pick for me"></a>
+</p>
+
+<p align="center"><a href="docs/media/demo-phone.mp4">▶ Watch the demo with sound</a> (recorded on a OnePlus Nord CE) · <a href="docs/media/demo-emulator.mp4">emulator recording</a></p>
+
+| Rack | Picking… | Tonight's pick |
+| --- | --- | --- |
+| <img src="docs/media/screen-rack.png" width="260"> | <img src="docs/media/screen-picking.png" width="260"> | <img src="docs/media/screen-tonights-pick.png" width="260"> |
+
 ## Features
 
 - **3D jewel-case rack** drawn on a plain `Canvas`. Each case is a box projected with a weak-perspective camera, and the selected album slides out toward you.
@@ -45,4 +55,4 @@ python tools/resolve_catalog.py
 
 ## Note
 
-This is a personal, non-commercial project. Album art and audio previews belong to their owners. They are streamed from Apple's public iTunes Search API and are not included in this repository.
+This is a personal, non-commercial project. Album art and audio previews belong to their owners. The app streams them from Apple's public iTunes Search API. The screenshots and demo recordings in `docs/media` show that content for illustration only.

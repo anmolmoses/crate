@@ -4,5 +4,3 @@ build/
 local.properties
 *.iml
 .idea/
-# Demo recordings contain copyrighted album art and music
-demo/
